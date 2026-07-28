@@ -69,6 +69,13 @@ int pop(stack *ptr)
         return val;
     }
 }
+int stackbottom(stack *s){
+    
+return s->arr[0];
+}
+int stacktop(stack*s){
+return s->arr[s->top];}
+
 int main()
 {
     stack *s = new stack;
